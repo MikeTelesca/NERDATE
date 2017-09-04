@@ -5,42 +5,42 @@ body {
 
 h1 {font-family: lato;
   color: #e43774;
-  font-size: 40px; /* Approximation due to font substitution */
+  font-size: 40px;
   font-weight: 500;
   text-align: left;
-transform: scaleY(1.0001); /* width and height properties ommitted due to transform */}
+ }
 
 h3 {font-family: lato;
   color: #0e0206;
-  font-size: 36px; /* Approximation due to font substitution */
+  font-size: 36px;
   font-weight: 500;
   text-align: left;
-transform: scaleY(1.0001); /* width and height properties ommitted due to transform */}
+}
 
 h4 {
   font-family: lato;
   color:  #ffffff;
-  font-size: 18px;/* Approximation due to font substitution */
+  font-size: 18px;
   font-weight: 300;
   font-style: italic;
   text-align: left;
-  transform: scaleX(1.0001);/* width and height properties ommitted due to transform */
+
 }
 
 h2 {
   font-family: Daydreamer;
   color:  #ffffff;
-  font-size: 20px;/* Approximation due to font substitution */
+  font-size: 20px;
   font-weight: 400;
   text-align: left;
   margin-bottom: 20px;
-  transform: scaleX(1.0001);/* width and height properties ommitted due to transform */
+
 }
 
 h5{
   font-family: lato;
   color: #ffffff;
-  font-size: 33.91px; /* Approximation due to font substitution */
+  font-size: 33.91px;
   font-weight: 600;
   text-align: center;
 
@@ -49,7 +49,7 @@ h5{
 h6{
   font-family: lato;
   color: #ffffff;
-  font-size: 18px; /* Approximation due to font substitution */
+  font-size: 18px;
   font-weight: 400;
   text-align: center;
   margin-bottom: 10px;
@@ -325,10 +325,3 @@ form {
 }
 
 }
-
-@media only screen and (min-width: 250px) and (max-width: 740px) {
-
-
-  .mobile {
-    display: inherit;
-  }
