@@ -36,7 +36,24 @@ text-align: left;
 transform: scaleX(1.0001);/* width and height properties ommitted due to transform */
 }
 
+h5{
+  font-family: lato;
+color: #ffffff;
+font-size: 33.91px; /* Approximation due to font substitution */
+font-weight: 600;
+text-align: center;
 
+}
+
+h6{
+  font-family: lato;
+color: #ffffff;
+font-size: 18px; /* Approximation due to font substitution */
+font-weight: 400;
+text-align: center;
+
+
+}
 
 nav {
   height: 60px;
@@ -48,7 +65,6 @@ nav {
 
 .navbar {width: 100%;
 }
-
 
 .navbar a {
   display: flex;
@@ -71,7 +87,7 @@ nav {
 }
 
 span {
-  padding-right: 40px;
+  padding-right: 50px;
 }
 
 
@@ -89,6 +105,7 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 margin: auto 100px;
+
 }
 .container-jumbo {
 display: flex;
@@ -100,22 +117,18 @@ align-items: center;
 
 .jumbotron{
   background-image: url("hero-image.png");
- margin: auto 100px;
+ margin: auto 300px;
 }
 
-.jumbotron img {
+.herogirl {
 padding-left: 100px;
 max-height: 700px;
 margin: auto;
 }
 
-.trontext {
-  text-align: center;
+.logo {
+  padding-right: 105px;
 }
-.trontext img {
-  padding-right: 125px;
-}
-
 
 
 
@@ -154,17 +167,23 @@ text-decoration: none;
 
 .page3 {
   background:  #1693df;
+
 }
 
 
 .page3 img {
+  margin-top: 280px;
   padding-top: 50px;
   height: 600px;
   width: auto;
 }
 
 form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-width:353px;
+  margin-left: 100px;
 }
 
 label {
@@ -197,4 +216,5 @@ font-weight: 300;
   background-color:  #e43774;
   width: 306px;
   height: 36px;
+  margin-top: 15px;
 }
